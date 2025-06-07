@@ -1,0 +1,42 @@
+# 网站设置
+title: 我的个人网站
+description: 一个使用 Jekyll 构建的个人网站
+baseurl: ""
+url: ""
+
+# 构建设置
+markdown: kramdown
+permalink: pretty
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# 集合
+collections:
+  hobbies:
+    output: true
+    permalink: /hobbies/:title/ 
