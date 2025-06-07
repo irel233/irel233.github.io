@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .landing-page {
+            text-align: center;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .landing-page h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .landing-page p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #2c3e50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #34495e;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature-card {
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card p {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+        <p>这里记录我的学习和生活</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">首页</a>
+        <a href="about.html">关于我</a>
+        <a href="hobbies.html">我的爱好</a>
+        <a href="contact.html">联系我</a>
+    </nav>
+    
+    <main>
+        <section class="landing-page">
+            <h1>探索我的个人世界</h1>
+            <p>这里是一个展示我个人生活、爱好和想法的空间。通过这个网站，您可以了解我的故事，分享我的兴趣，并与我建立联系。</p>
+            
+            <div class="cta-buttons">
+                <a href="about.html" class="cta-button">了解更多</a>
+                <a href="contact.html" class="cta-button">联系我</a>
+            </div>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h3>个人简介</h3>
+                    <p>了解我的背景、经历和目标</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>兴趣爱好</h3>
+                    <p>探索我的爱好和生活方式</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>联系方式</h3>
+                    <p>随时与我取得联系</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 我的个人网站</p>
+        <p>联系方式：1374142723@qq.com</p>
+    </footer>
+</body>
+</html>

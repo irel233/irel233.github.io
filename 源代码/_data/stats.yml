@@ -1,0 +1,17 @@
+- name: 旅行次数
+  value: 12
+  min: 0
+  max: 20
+  unit: 次
+
+- name: 参加电音节
+  value: 5
+  min: 0
+  max: 10
+  unit: 次
+
+- name: 游戏时长
+  value: 8
+  min: 0
+  max: 24
+  unit: 小时/周 
